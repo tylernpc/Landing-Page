@@ -1,13 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,200&display=swap');
+/* weights: 200, 300, 500, 700 */
+
+/* font style italic for 200, delete me */
+
 * {
     margin: 0em;
     padding: 0em;
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 .landing-page {
-    background-image: url(images/background-image.jpg);
-    background-repeat: no-repeat;
+    background-color: black;
     background-size: cover;
-    height: 100vh;
+    height: 450px;
     width: auto;
-    border: solid red 2px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
+    position: absolute;
+    top: 24%;
+    left: 17%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* border-bottom: solid red 2px; */
+}
+
+h1 .logo {
+    text-shadow: 0px 0px 5px rgb(191, 255, 0), 0px 0px 20px rgb(255, 255, 255), 0px 0px 40px rgb(191, 255, 0);
+}
+
+nav ul {
+    /* border-bottom: solid rgb(197, 192, 192) 2px; */
+    color: white;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    position: absolute;
+    top: 26.15%;
+    right: 17%;
+}
+
+nav ul li{
+    padding: 0px 70px 0px 70px;
 }
