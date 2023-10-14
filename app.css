@@ -17,8 +17,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 .background {
     background-color: black;
+    padding-bottom: 7em;
 }
 
 .landing-page h1 {
@@ -68,4 +73,43 @@ nav {
     margin: 1em 0em 0em 3em;
     color: white;
     text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
+}
+
+.first-button {
+    margin: 2em 0em 0em 3.5em;
+    color: black;
+    background-color: rgb(191, 255, 0);
+    padding: 5px 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.second-hero {
+    text-align: center;
+    margin: 1.5em 0em 0em 0em;
+}
+
+.squares {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0em 16em;
+}
+
+.squares li {
+    outline: solid blue 2px;
+    margin: 0em 2em;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.square {
+    background-color: transparent;
+    border: solid rgb(191, 255, 0) 3px;
+    border-radius: 10px;
+    width: 8em;
+    height: 8em;
+    margin-top: 2em;
 }
