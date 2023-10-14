@@ -3,68 +3,69 @@
 
 /* font style italic for 200, delete me */
 
+/* font-family: 'Poppins', sans-serif; */
+
+/* LIME SHADOW */
+/* text-shadow: 0px 0px 5px rgb(191, 255, 0), 0px 0px 20px rgb(255, 255, 255), 0px 0px 40px rgb(191, 255, 0); */
+
+/* WHITE SHADOW */
+/* text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255); */
+
 * {
     margin: 0em;
     padding: 0em;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: #f2f2f2;
-}
-
-.landing-page {
+.background {
     background-color: black;
-    background-size: cover;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
 }
 
-h1 {
+.landing-page h1 {
     color: white;
     text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    margin: 1em 0em 0em 2em;
     border-bottom: solid rgb(191, 255, 0) 2px;
-    margin: 40px 0px 400px 40px;
 }
 
-h1 .logo {
+.logo {
     text-shadow: 0px 0px 5px rgb(191, 255, 0), 0px 0px 20px rgb(255, 255, 255), 0px 0px 40px rgb(191, 255, 0);
 }
 
 nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px 40px 400px 0px;
+    justify-content: space-between;
 }
 
-nav ul {
+.links {
+    margin: 2em 2em 0em 0em;
+    display: flex;
+}
+
+.links li {
+    justify-content: space-between;
+    padding: 0em 2em;
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
     color: white;
     text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    display: flex;
-    /* border: solid rgb(255, 255, 255) 2px; */
 }
 
-nav ul li{
-    padding: 0px 20px 0px 20px;
-    /* border: rgb(4, 159, 249) solid 2px; */
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:active {
+.links li a:active {
     text-shadow: 0px 0px 5px rgb(191, 255, 0), 0px 0px 20px rgb(255, 255, 255), 0px 0px 40px rgb(191, 255, 0);
 }
 
-h2 {
-    color: rgb(233, 0, 0);
-    z-index: -23;
+.hero-title {
+    margin: 4em 0em 0em 2em;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
+}
+
+.hero-paragraph {
+    margin: 1em 0em 0em 3em;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 20px rgb(0, 0, 0), 0px 0px 40px rgb(255, 255, 255);
 }
